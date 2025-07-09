@@ -32,6 +32,7 @@ const ContactSection = () => {
           data-netlify-honeypot="bot-field"
           action="/thank-you"
           className="bg-zinc-800 p-6 rounded-xl shadow-lg space-y-4"
+          netlify
         >
           {/* Hidden input for Netlify tracking */}
           <input type="hidden" name="form-name" value="contact" />
