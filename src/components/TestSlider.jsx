@@ -34,7 +34,7 @@ const TestimonialsSlider = () => {
   };
 
   return (
-    <section className="bg-black w-full text-white py-16 px-6 md:px-20 rounded-xl">
+    <section className=" z-50 bg-black w-full text-white py-16 px-6 md:px-20 rounded-xl">
       <Slider {...settings}>
         {testimonials.map((item, index) => (
           <div key={index} className="bg-zinc-800 grid place-content-center px-8 py-6 shadow-md mx-6 text-center">
